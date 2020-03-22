@@ -66,7 +66,6 @@ Bot.initEvents = function() {
 
 Bot.login = function() {
 	this.bot.login(this.DBM.Files.data.settings.token);
-	this.bot.login(process.env.token);
 };
 
 Bot.onReady = function() {
